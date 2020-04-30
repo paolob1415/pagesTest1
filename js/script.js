@@ -1,15 +1,20 @@
 function checkNames(name1, name2) {
-  	var name1Lower = name1.toLowerCase();
-  	var name2Lower = name2.toLowerCase();
-  	if (this.checkCarmenEDani(name1Lower, name2Lower)) {
-	    alert("Certo che no, mannaggialsuino! O almeno, non finché non ci annunciate pubblicamente che volete convivere :-P<br/> Un piccolo reminder: https://www.varesenews.it/2020/04/carmen-daniele-coronavirus-rimandato-nostro-sogno-andare-vivere-insieme/924403/");
-  	}
-  	else if (this.checkAlreadyMarried(name1Lower, name2Lower)){
-	  	alert("Ma non rompete le scatole che siete già sposati!");
-  	}
+	if(name1 != null && name2 != null && name1.trim() != null && name2.trim() != null) {
+        var name1Lower = name1.toLowerCase();
+        var name2Lower = name2.toLowerCase();
+        if (this.checkCarmenEDani(name1Lower, name2Lower)) {
+            alert("Certo che no, mannaggialsuino! O almeno, non finché non ci annunciate pubblicamente che volete convivere :-P<br/> Un piccolo reminder: https://www.varesenews.it/2020/04/carmen-daniele-coronavirus-rimandato-nostro-sogno-andare-vivere-insieme/924403/");
+        }
+        else if (this.checkAlreadyMarried(name1Lower, name2Lower)){
+            alert("Ma non rompete le scatole che siete già sposati!");
+        }
+        else {
+            alert("Assolutamente sì, ci mancherebbe, è un sacco che non vi vedete!");
+        }
+    }
   	else {
-	  	alert("Assolutamente sì, ci mancherebbe, è un sacco che non vi vedete!");
-  	}
+    	alert("Riempi entrambi i campi!");
+    }
 }
 
 function checkCarmenEDani(name1, name2) {
