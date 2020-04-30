@@ -1,7 +1,7 @@
 function checkNames(name1, name2) {
-	var name1 = document.getElementById("name1");
-	var name2 = document.getElementById("name2");
-	if(name1 != null && name2 != null && name1.trim() != null && name2.trim() != null) {
+	var name1 = document.getElementById("name1").value;
+	var name2 = document.getElementById("name2").value;
+	if(name1 != null && name2 != null && name1.trim() != "" && name2.trim() != "") {
         var name1Lower = name1.toLowerCase();
         var name2Lower = name2.toLowerCase();
         if (this.checkCarmenEDani(name1Lower, name2Lower)) {
