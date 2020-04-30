@@ -5,13 +5,13 @@ function checkNames(name1, name2) {
         var name1Lower = name1.toLowerCase();
         var name2Lower = name2.toLowerCase();
         if (this.checkCarmenEDani(name1Lower, name2Lower)) {
-            alert("Certo che no, mannaggialsuino! O almeno, non finché non ci annunciate pubblicamente che volete convivere :-P<br/> Un piccolo reminder: https://www.varesenews.it/2020/04/carmen-daniele-coronavirus-rimandato-nostro-sogno-andare-vivere-insieme/924403/");
+            alert("Certo che no, mannaggialsuino!\n O almeno, non finché non ci annunciate pubblicamente che volete convivere :-P");
         }
         else if (this.checkAlreadyMarried(name1Lower, name2Lower)){
-            alert("Ma non rompete le scatole che siete già sposati!");
+            alert("Sì.\nMa non rompete le scatole che siete già sposati!");
         }
         else {
-            alert("Assolutamente sì, ci mancherebbe, è un sacco che non vi vedete!");
+            alert("Assolutamente sì!!\nCi mancherebbe, è un sacco che non vi vedete!");
         }
     }
   	else {
