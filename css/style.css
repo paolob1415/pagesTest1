@@ -1,5 +1,9 @@
 .header1 {
   color: #339966;
+  font-size: 3em;
+}
+h2 {
+  text-align: center;
 }
 input[type=text], select {
   width: 100%;
@@ -12,7 +16,7 @@ input[type=text], select {
 }
 .button {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #339966;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
