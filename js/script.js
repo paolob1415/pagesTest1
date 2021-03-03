@@ -1,4 +1,4 @@
-function checkNames(name1, name2) {
+function checkNames(name1, name2) {/*
 	var name1 = document.getElementById("name1").value;
 	var name2 = document.getElementById("name2").value;
 	if(name1 != null && name2 != null && name1.trim() != "" && name2.trim() != "") {
@@ -16,7 +16,7 @@ function checkNames(name1, name2) {
     }
   	else {
     	alert("Riempi entrambi i campi!");
-    }
+    }*/
 }
 
 function checkCarmenEDani(name1, name2) {
